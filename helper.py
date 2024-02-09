@@ -2,7 +2,7 @@ import openai
 import json
 import pandas as pd
 
-openai.api_key = "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"
+openai.api_key = "OPENAI API KEY"
 
 def extract_financial_data(text):
     prompt = get_prompt_financial() + text
